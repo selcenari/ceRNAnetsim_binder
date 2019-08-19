@@ -1,2 +1,2 @@
-install.packages("devtools")
-devtools::install.github("selcenari/ceRNAnetsim")
+install_packages("devtools")
+devtools::install_github("selcenari/ceRNAnetsim")
