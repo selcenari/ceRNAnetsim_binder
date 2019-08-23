@@ -4,4 +4,4 @@ COPY --chown=rstudio:rstudio . ${HOME}
 
 ## Run an install.R script, if it exists.
 ## RUN R --quiet -e "devtools::install_github('selcenari/ceRNAnetsim')" 
-RUN install.R
+RUN ~/install.R
