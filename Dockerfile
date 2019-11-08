@@ -1,6 +1,6 @@
 FROM rocker/verse:3.6.0
 
-RUN R -e "devtools::install_github('selcenari/ceRNAnetsim', ref= "master")"
+RUN R -e "devtools::install_github('selcenari/ceRNAnetsim', ref= 'master')"
 
 ENV NB_USER rstudio
 ENV NB_UID 1000
