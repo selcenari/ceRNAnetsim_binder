@@ -1,4 +1,4 @@
-FROM rocker/verse:3.6.0
+FROM rocker/verse:3.6.1
 
 RUN R -e "devtools::install_github('selcenari/ceRNAnetsim', ref= 'master')"
 
